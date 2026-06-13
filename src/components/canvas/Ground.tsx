@@ -1,9 +1,9 @@
 const Ground = () => {
   return (
     <>
-      <mesh rotation={[-Math.PI / 2, 0, 0]}>
+      <mesh rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
         <planeGeometry args={[100, 100]} />
-        <meshBasicMaterial color="#af8754" />
+        <meshStandardMaterial color="#e9bd83" />
       </mesh>
     </>
   );
